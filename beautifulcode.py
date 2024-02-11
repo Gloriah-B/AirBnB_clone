@@ -1,4 +1,4 @@
-# my_module.py
+#!/usr/bin/python3
 
 class MyClass:
     """A class to represent a simple example."""
