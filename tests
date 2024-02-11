@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+
+import unittest
+from my_module import MyClass, my_function
+
+class TestMyModule(unittest.TestCase):
+    """Unit tests for my_module.py"""
+
+    def test_my_class(self):
+        """Test MyClass functionality."""
+        obj = MyClass()
+        self.assertEqual(obj.my_function(3), 6)
+
+    def test_my_function(self):
+        """Test standalone function."""
+        self.assertEqual(my_function(4), 8)
+
+if __name__ == '__main__':
+    unittest.main()
