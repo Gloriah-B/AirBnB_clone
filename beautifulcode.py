@@ -1,14 +1,33 @@
-# Simple Python code example
-def greet(name):
-    """Greet the user by name."""
-    print(f"Hello, {name}!")
+# my_module.py
+
+class MyClass:
+    """A class to represent a simple example."""
+
+    def my_function(self, param):
+        """
+        Perform a simple operation.
+
+        Args:
+            param (int): The parameter for the operation.
+
+        Returns:
+            int: The result of the operation.
+        """
+        return param * 2
 
 
-def main():
-    """Main function to demonstrate greeting."""
-    name = input("Enter your name: ")
-    greet(name)
+def my_function(param):
+    """
+    Perform a simple operation.
+
+    Args:
+        param (int): The parameter for the operation.
+
+    Returns:
+        int: The result of the operation.
+    """
+    return param * 2
 
 
 if __name__ == "__main__":
-    main()
+    print("This is a module for demonstration purposes.")
